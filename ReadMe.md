@@ -165,6 +165,7 @@ Solución desarrollada en el archivo AlgoritmosManual.md
 Solución desarrollada en el archivo Ejercicio 2.4.py
 
 ### Ejercicio 4: Comparación experimental entre Merge Sort e Insertion Sort
+Solución desarrollada en el archivo Ejercicio 2.4.py
 
 ---
 
