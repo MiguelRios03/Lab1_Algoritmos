@@ -8,7 +8,7 @@
 **Materia:** Analisis de algoritmos  
 **Código clase:** 190304006-1  
 **Profesor:** SANTIAGO SUAREZ CORTES  
-**Universidad:**Instituto tecnológico metropolitano (I.T.M)  
+**Universidad:** Instituto tecnológico metropolitano (I.T.M)  
 **Facultad:** Ingenierías  
 **Tema:** Recursividad, Divide y Vencerás, Merge Sort  
 **Fecha limite:** 18-04-2026  
@@ -104,11 +104,11 @@ b) Puede consumir más memoria
 b) Dividir el problema en subproblemas más pequeños, resolverlos y combinar sus soluciones
 
 ### 5. En el problema del máximo subarreglo, ¿cuántos casos posibles existen al dividir el arreglo mediante el paradigma divide y vencerás? Enuncie cada caso
-b) 3 
-CASOS:
-    Completamente en la mitad izquierda 
-    Completamente en la mitad derecha 
-    Cruzando el punto medio.
+b) 3  
+CASOS:  
+    Completamente en la mitad izquierda  
+    Completamente en la mitad derecha  
+    Cruzando el punto medio.  
 
 ### 6. En Merge Sort y el problema del máximo subarreglo, ¿Cuál es el caso base de los algoritmos?
 b) Cuando el arreglo tiene un elemento
