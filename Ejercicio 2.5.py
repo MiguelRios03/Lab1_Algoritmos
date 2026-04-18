@@ -89,6 +89,7 @@ def graficar(tamanos, tiempos_insertion, tiempos_merge):
     plt.title('Comparación: Merge Sort vs Insertion Sort')
     plt.legend()
     plt.grid()
+    plt.savefig("comparacion_insertion_vs_merge.png")
 
     plt.show()
 
