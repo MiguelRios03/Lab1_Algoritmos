@@ -182,9 +182,27 @@ A continuación se muestra la gráfica comparativa de tiempos de ejecución entr
 * Para valores pequeños de n, ambos algoritmos tienen tiempos similares, aunque es más rápido el brute force pero minimamente.  
 * A medida que n crece, la diferencia de rendimiento se vuelve significativa  
 
+### Insertion sort vs Merge sort
+A continuación se muestra la gráfica comparativa de tiempos de ejecución entre los algoritmos de ordenamiento Insertion sort y Merge Sort:  
+
+![Comparación de algoritmos](comparacion_insertion_vs_merge.png)
+
+#### Mis observaciones de la gráfica:
+* Insertion Sort presenta un crecimiento cuadrático O(n²), por lo que su tiempo aumenta rápidamente.  
+* Merge Sort tiene una complejidad O(n log n), mostrando un crecimiento mucho más eficiente  
+* Para valores pequeños de n, ambos algoritmos tienen tiempos similares.  
+* Para valores grandes (n ≥ 1000), Merge Sort es significativamente más rápido.  
 
 ---
+
 ## Conclusiones
 
+A partir de los ejercicios realizados en el taller y en clase, hemos podido evidenciar una relación muy directa entre el comportamiento práctico de los algoritmos y su complejidad teórica.  
+En el problema del subarreglo máximo, el algoritmo de fuerza bruta presentó un crecimiento acelerado en el tiempo de ejecución, lo cual concuerda con su complejidad O(n²). Por otro lado, el algoritmo basado en divide y vencerás mostró un mejor desempeño a medida que el tamaño de entrada aumentaba, reflejando su complejidad O(n log n).  
+De manera similar, en la comparación entre Merge Sort e Insertion Sort, se observó que Insertion Sort funciona de manera aceptable para arreglos pequeños, pero su rendimiento se degrada rápidamente al aumentar el tamaño de los datos, debido a su complejidad cuadrática O(n²). Pero por otro lado, Merge Sort mantiene un crecimiento más estable y eficiente, lo que lo hace más adecuado para manejar grandes volúmenes de información.  
+
+Los resultados experimentales obtenidos mediante la medición de tiempos y su representación gráfica me permiten confirmar que los algoritmos con menor complejidad teórica escalan muchisimo mejor y con mucha más eficiencia en escenarios reales que contengan grandes volumenes de información.  
+
+En conclusión, con este análisis podemos demostrar lo sumamente importante que es elegir adecuadamente el algoritmo según el tamaño del problema, ya que una mala elección puede afectar significativamente el rendimiento del sistema.  
 
 ---
