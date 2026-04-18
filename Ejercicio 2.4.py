@@ -2,7 +2,6 @@ import time
 import random
 import matplotlib.pyplot as plt
 
-# 🔹 Fuerza bruta
 def max_subarray_bruteforce(arr):
     max_sum = float('-inf')
     for i in range(len(arr)):
@@ -12,8 +11,6 @@ def max_subarray_bruteforce(arr):
             max_sum = max(max_sum, current_sum)
     return max_sum
 
-
-# 🔹 Divide y vencerás
 def max_crossing_subarray(arr, low, mid, high):
     left_sum = float("-inf")
     suma = 0
@@ -44,8 +41,6 @@ def max_subarray(arr, low, high):
 
     return max(left, right, cross)
 
-
-# 🔹 Medición + datos para gráfica
 def obtener_datos():
     tamanos = [10, 50, 100, 200, 500, 1000]
     tiempos_fb = []
@@ -66,8 +61,6 @@ def obtener_datos():
 
     return tamanos, tiempos_fb, tiempos_dv
 
-
-# 🔹 Graficar
 def graficar():
     tamanos, tiempos_fb, tiempos_dv = obtener_datos()
 
@@ -80,10 +73,10 @@ def graficar():
     plt.title('Comparación de algoritmos de subarreglo máximo')
     plt.legend()
     plt.grid()
+    plt.savefig("comparacion_brute_force_vs_divide_and_conquer.png")
 
     plt.show()
 
 
-# 🚀 Ejecutar
 if __name__ == "__main__":
     graficar()

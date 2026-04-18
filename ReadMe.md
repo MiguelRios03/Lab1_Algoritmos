@@ -156,20 +156,31 @@ b) Transformándolo en subproblemas más pequeños del mismo tipo
     [1, 1, 3, 5, 9, 7, 2, 4, 8, 1]  
 
 ### Ejercicio 1: Solucion manual del problema del subarreglo máximo
-Solución desarrollada en el archivo AlgoritmosManual.md
+Solución desarrollada en el archivo AlgoritmosManual.md  
 
 ### Ejercicio 2: Solución manual del algoritmo Merge Sort
-Solución desarrollada en el archivo AlgoritmosManual.md
+Solución desarrollada en el archivo AlgoritmosManual.md  
 
 ### Ejercicio 3: Implementación en Python del problema del subarreglo máximo
-Solución desarrollada en el archivo Ejercicio 2.4.py
+Solución desarrollada en el archivo Ejercicio 2.4.py  
 
 ### Ejercicio 4: Comparación experimental entre Merge Sort e Insertion Sort
-Solución desarrollada en el archivo Ejercicio 2.4.py
+Solución desarrollada en el archivo Ejercicio 2.5.py  
 
 ---
 
 ## Resultados experimentales
+
+### Fuerza bruta vs Divide y vencerás
+A continuación se muestra la gráfica comparativa de tiempos de ejecución entre el algoritmo de fuerza bruta y el algoritmo de divide y vencerás:  
+
+![Comparación de algoritmos](comparacion_brute_force_vs_divide_and_conquer.png)
+
+#### Mis observaciones de la gráfica:
+* El algoritmo de fuerza bruta presenta un crecimiento acelerado en el tiempo de ejecución a medida que aumenta el tamaño de entrada, debido a su complejidad O(n²).  
+* El algoritmo de divide y vencerás muestra un crecimiento mucho más controlado, acorde a su complejidad O(n log n).  
+* Para valores pequeños de n, ambos algoritmos tienen tiempos similares, aunque es más rápido el brute force pero minimamente.  
+* A medida que n crece, la diferencia de rendimiento se vuelve significativa  
 
 
 ---
