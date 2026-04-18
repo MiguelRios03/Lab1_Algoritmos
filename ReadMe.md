@@ -126,3 +126,46 @@ b) Iterativos con complejidad cuadrática
 b) Transformándolo en subproblemas más pequeños del mismo tipo
 
 ---
+
+## DESARROLLO DE LOS DIAGRAMAS DE LOS ALGORITMOS
+
+### Construcción de Arreglos
+
+    Para el desarrollo del laboratorio, se construyen dos arreglos a partir de los dígitos del número de identificación.
+
+#### Reglas generales
+
+* Se toman todos los dígitos del documento.  
+* Los ceros deben reemplazarse por el último dígito del documento.  
+* Si el último dígito también es cero, se utiliza el penúltimo, y así sucesivamente.  
+
+#### Arreglo 1 (Subarreglo Máximo)
+    Se construye alternando signos positivos y negativos en cada posición.  
+
+    Ejemplo:  
+    Documento: 1035972481  
+
+    Arreglo:  
+    [1, -1, 3, -5, 9, -7, 2, -4, 8, -1]  
+
+#### Arreglo 2 (Ordenamiento)
+    Se construye con los mismos dígitos del documento, sin modificar el signo.  
+
+    Ejemplo:  
+
+    [1, 1, 3, 5, 9, 7, 2, 4, 8, 1]  
+
+### Ejercicio 1: Solucion manual del problema del subarreglo máximo
+Solución desarrollada en el archivo AlgoritmosManual.md
+
+### Ejercicio 2: Solución manual del algoritmo Merge Sort
+Solución desarrollada en el archivo AlgoritmosManual.md
+
+### Ejercicio 3: Implementación en Python del problema del subarreglo máximo
+
+### Ejercicio 4: Comparación experimental entre Merge Sort e Insertion Sort
+
+### Resultados experimentales
+
+### Conclusiones
+---
