@@ -2,14 +2,14 @@
 
 ## INFORMACIÓN GENERAL
 
-**Presentado por:** Miguel Angel Rios Ochoa
-**Materia:** Analisis de algoritmos
-**Código clase:** 190304006-1
-**Profesor:** SANTIAGO SUAREZ CORTES
-**Universidad:**Instituto tecnológico metropolitano (I.T.M)
-**Facultad:** Ingenierías
-**Tema:** Recursividad, Divide y Vencerás, Merge Sort
-**Fecha limite:** 18-04-2026
+**Presentado por:** Miguel Angel Rios Ochoa  
+**Materia:** Analisis de algoritmos  
+**Código clase:** 190304006-1  
+**Profesor:** SANTIAGO SUAREZ CORTES  
+**Universidad:**Instituto tecnológico metropolitano (I.T.M)  
+**Facultad:** Ingenierías  
+**Tema:** Recursividad, Divide y Vencerás, Merge Sort  
+**Fecha limite:** 18-04-2026  
 
 ---
 
@@ -26,65 +26,64 @@ Por lo tanto, podemos decir con certeza que ambos conceptos son esenciales porqu
 ## PREGUNTAS
 
 ### 1. La recursividad es:
-a) Un algoritmo iterativo
-b) Un algoritmo que usa  ́unicamente ciclos
-c) Un algoritmo que se llama a sí mismo
-d) Un algoritmo que no tiene caso base 
+a) Un algoritmo iterativo  
+b) Un algoritmo que usa  ́unicamente ciclos  
+c) Un algoritmo que se llama a sí mismo  
+d) Un algoritmo que no tiene caso base  
 
 ### 2. El caso base en un algoritmo recursivo permite:
-a) Aumentar la complejidad del algoritmo
-b) Detener la ejecución de la recursión
-c) Duplicar las llamadas recursivas
-d) Eliminar estructuras iterativas
+a) Aumentar la complejidad del algoritmo  
+b) Detener la ejecución de la recursión  
+c) Duplicar las llamadas recursivas  
+d) Eliminar estructuras iterativas  
 
 ### 3. ¿Cuál es una desventaja de la recursividad?
-a) No puede expresar problemas matemáticos
-b) Puede consumir más memoria
-c) Siempre es más rápida que un ciclo
-d) No puede retornar valores
+a) No puede expresar problemas matemáticos  
+b) Puede consumir más memoria  
+c) Siempre es más rápida que un ciclo  
+d) No puede retornar valores  
 
 ### 4. El paradigma divide y vencerás consiste en:
-a) Resolver el problema utilizando ciclos anidados
-b) Dividir el problema en subproblemas más pequeños, resolverlos y combinar sus soluciones
-c) Ordenar los datos antes de procesarlos
-d) Aplicar programación dinámica
+a) Resolver el problema utilizando ciclos anidados  
+b) Dividir el problema en subproblemas más pequeños, resolverlos y combinar sus soluciones  
+c) Ordenar los datos antes de procesarlos  
+d) Aplicar programación dinámica  
 
-### 5. En el problema del máximo subarreglo, ¿cuántos casos posibles existen al dividir el arreglo mediante el
-paradigma divide y vencerás? Enuncie cada caso
-a) 2
-b) 3
-c) 4
-d) 5
+### 5. En el problema del máximo subarreglo, ¿cuántos casos posibles existen al dividir el arreglo mediante el paradigma divide y vencerás? Enuncie cada caso
+a) 2  
+b) 3  
+c) 4  
+d) 5  
 
 ### 6. En Merge Sort y el problema del máximo subarreglo, ¿Cuál es el caso base de los algoritmos?
-a) Cuando el arreglo tiene dos elementos
-b) Cuando el arreglo tiene un elemento
-c) Cuando el arreglo tiene un negativo
-d) Cuando el arreglo es positivo
+a) Cuando el arreglo tiene dos elementos  
+b) Cuando el arreglo tiene un elemento  
+c) Cuando el arreglo tiene un negativo  
+d) Cuando el arreglo es positivo  
 
 ### 7. La complejidad temporal del algoritmo Merge Sort es:
-a) O(n)
-b) O(n^2)
-c) O(n log n)
-d) O(log n)
+a) O(n)  
+b) O(n^2)  
+c) O(n log n)  
+d) O(log n)  
 
 ### 8. El problema del subarreglo máximo busca:
-a) El elemento más grande del arreglo
-b) El subarreglo con mayor número de elementos
-c) El subarreglo contiguo cuya suma es máxima
-d) El promedio m ́as alto del arreglo
+a) El elemento más grande del arreglo  
+b) El subarreglo con mayor número de elementos  
+c) El subarreglo contiguo cuya suma es máxima  
+d) El promedio m ́as alto del arreglo  
 
 ### 9. El algoritmo Insertion Sort pertenece a la categoría de algoritmos:
-a) Divide y vencerás
-b) Iterativos con complejidad cuadrática
-c) Logarítmicos
-d) Recursivos puros
+a) Divide y vencerás  
+b) Iterativos con complejidad cuadrática  
+c) Logarítmicos  
+d) Recursivos puros  
 
 ### 10. En el paradigma divide y vencerás, el problema original se resuelve:
-a) Eliminando subproblemas innecesarios
-b) Transformándolo en subproblemas más pequeños del mismo tipo
-c) Ordenando previamente los datos
-d) Aplicando programación dinámica
+a) Eliminando subproblemas innecesarios  
+b) Transformándolo en subproblemas más pequeños del mismo tipo  
+c) Ordenando previamente los datos  
+d) Aplicando programación dinámica  
 
 ## RESPUESTAS
 
