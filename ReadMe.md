@@ -1,5 +1,7 @@
 # Laboratorio #1 - Algoritmos (Recursividad, Divide y Vencerás, Merge Sort)
 
+---
+
 ## INFORMACIÓN GENERAL
 
 **Presentado por:** Miguel Angel Rios Ochoa  
@@ -84,6 +86,8 @@ a) Eliminando subproblemas innecesarios
 b) Transformándolo en subproblemas más pequeños del mismo tipo  
 c) Ordenando previamente los datos  
 d) Aplicando programación dinámica  
+
+---
 
 ## RESPUESTAS
 
