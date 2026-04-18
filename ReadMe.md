@@ -162,10 +162,17 @@ Solución desarrollada en el archivo AlgoritmosManual.md
 Solución desarrollada en el archivo AlgoritmosManual.md
 
 ### Ejercicio 3: Implementación en Python del problema del subarreglo máximo
+Solución desarrollada en el archivo Ejercicio 2.4.py
 
 ### Ejercicio 4: Comparación experimental entre Merge Sort e Insertion Sort
 
-### Resultados experimentales
+---
 
-### Conclusiones
+## Resultados experimentales
+
+
+---
+## Conclusiones
+
+
 ---
