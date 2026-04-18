@@ -8,7 +8,7 @@
 **Materia:** Analisis de algoritmos  
 **Código clase:** 190304006-1  
 **Profesor:** SANTIAGO SUAREZ CORTES  
-**Universidad:**Instituto tecnológico metropolitano (I.T.M)  
+**Universidad:** Instituto tecnológico metropolitano (I.T.M)  
 **Facultad:** Ingenierías  
 **Tema:** Recursividad, Divide y Vencerás, Merge Sort  
 **Fecha limite:** 18-04-2026  
